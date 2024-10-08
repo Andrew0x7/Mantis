@@ -1,0 +1,6 @@
+const fromSecretKey = Uint8Array.from([
+    // Your 64-byte secret key array here
+  ]);
+  
+  const fromWallet = Keypair.fromSecretKey(fromSecretKey);
+  
